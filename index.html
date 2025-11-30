@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArchiTech Blueprints - Agence d'Architecture BonPlan</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Navigation -->
+    <custom-navbar></custom-navbar>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center bg-gradient-to-r from-gray-100 to-gray-200 overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-10"></div>
+        <div class="relative z-10 text-center px-4 max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 text-gray-900">L'ARCHITECTURE<br><span class="text-blue-600">RÉINVENTÉE</span></h1>
+            <p class="text-xl md:text-2xl mb-8 text-gray-700">Précision technique, design innovant, réalisation d'exception</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contact" class="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition duration-300 font-semibold text-lg">Demander un devis</a>
+                <a href="/portfolio.html" class="border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-900 hover:text-white transition duration-300 font-semibold text-lg">Voir nos projets</a>
+            </div>
+        </div>
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <i data-feather="chevron-down" class="text-gray-700 w-8 h-8"></i>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">NOS SERVICES</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="home" class="text-white w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-900">Architecture</h3>
+                    <p class="text-gray-600 mb-6">Conception architecturale innovante alliant esthétique et fonctionnalité.</p>
+                    <a href="#contact" class="text-blue-600 font-semibold hover:text-blue-700">En savoir plus →</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="layers" class="text-white w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-900">Plans 2D/3D</h3>
+                    <p class="text-gray-600 mb-6">Précision technique maximale avec plans détaillés et modèles 3D.</p>
+                    <a href="#contact" class="text-blue-600 font-semibold hover:text-blue-700">En savoir plus →</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="box" class="text-white w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-900">Modélisation 3D</h3>
+                    <p class="text-gray-600 mb-6">Visualisation photoréaliste de vos projets avant réalisation.</p>
+                    <a href="#contact" class="text-blue-600 font-semibold hover:text-blue-700">En savoir plus →</a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="pen-tool" class="text-white w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-900">Design Intérieur</h3>
+                    <p class="text-gray-600 mb-6">Espaces harmonieux optimisant confort et esthétique.</p>
+                    <a href="#contact" class="text-blue-600 font-semibold hover:text-blue-700">En savoir plus →</a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="refresh-cw" class="text-white w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-900">Rénovation</h3>
+                    <p class="text-gray-600 mb-6">Transformation et modernisation d'espaces existants.</p>
+                    <a href="#contact" class="text-blue-600 font-semibold hover:text-blue-700">En savoir plus →</a>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="clipboard" class="text-white w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-900">Suivi de Chantier</h3>
+                    <p class="text-gray-600 mb-6">Supervision rigoureuse garantissant qualité et délais.</p>
+                    <a href="#contact" class="text-blue-600 font-semibold hover:text-blue-700">En savoir plus →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="featured-projects" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">PROJETS PHARES</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="group relative rounded-xl overflow-hidden shadow-lg">
+                    <img src="http://static.photos/architecture/1200x630/1" alt="Projet résidentiel moderne" class="w-full h-96 object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-8">
+                        <div>
+                            <h3 class="text-white text-2xl font-bold mb-2">Villa Contemporaine</h3>
+                            <p class="text-gray-200">Conception minimaliste avec vue panoramique</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="group relative rounded-xl overflow-hidden shadow-lg">
+                    <img src="http://static.photos/office/1200x630/2" alt="Bureau moderne" class="w-full h-96 object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-8">
+                        <div>
+                            <h3 class="text-white text-2xl font-bold mb-2">Siège Corporate</h3>
+                            <p class="text-gray-200">Architecture d'entreprise innovante</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/portfolio.html" class="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition duration-300 font-semibold text-lg">Voir tous les projets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">BONPLAN ARCHITECTURE</h2>
+                    <p class="text-xl mb-6 text-gray-300">Depuis 15 ans, nous repoussons les limites de l'architecture avec une approche technique rigoureuse et un design audacieux.</p>
+                    <p class="text-gray-300 mb-8">Notre équipe d'architectes certifiés allie expertise technique et vision créative pour transformer vos idées en réalité.</p>
+                    <a href="/about.html" class="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-gray-900 transition duration-300 font-semibold">En savoir plus</a>
+                </div>
+                <div class="relative">
+                    <img src="http://static.photos/workspace/1200x630/3" alt="Notre équipe" class="rounded-xl shadow-2xl">
+                    <div class="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-lg shadow-xl">
+                        <p class="text-2xl font-bold">15+</p>
+                        <p class="text-sm">Années d'expérience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">TÉMOIGNAGES</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="text-yellow-400 mb-4">
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">"L'équipe BonPlan a transformé notre vision en une maison extraordinaire. Leur précision technique est remarquable."</p>
+                    <p class="font-semibold text-gray-900">Marie Dubois</p>
+                    <p class="text-sm text-gray-500">Projet résidentiel</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="text-yellow-400 mb-4">
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">"Un suivi de chantier impeccable et une attention aux détails qui font toute la différence."</p>
+                    <p class="font-semibold text-gray-900">Jean Martin</p>
+                    <p class="text-sm text-gray-500">Rénovation commerciale</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="text-yellow-400 mb-4">
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                        <i data-feather="star" class="w-5 h-5 inline"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">"Les rendus 3D étaient tellement réalistes que nous avons pris nos décisions en toute confiance."</p>
+                    <p class="font-semibold text-gray-900">Sophie Laurent</p>
+                    <p class="text-sm text-gray-500">Design d'intérieur</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section id="contact" class="py-20 bg-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-6">PRÊT À DÉMARRER VOTRE PROJET ?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Discutons de votre vision et découvrez comment notre expertise peut la concrétiser avec précision et innovation.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/contact.html" class="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition duration-300 font-semibold text-lg">Nous contacter</a>
+                <a href="#quote-form" class="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300 font-semibold text-lg">Demander un devis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <custom-footer></custom-footer>
+
+    <!-- Scripts -->
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
